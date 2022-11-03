@@ -6,12 +6,13 @@ import {
   FaHeart,
   FaLeaf,
 } from "react-icons/fa";
+import { MdOutlinePermIdentity } from "react-icons/md";
 const Posts = () => {
   return (
     <div className="postss">
       <div className="postss__first">
         <div className="posts__first__img">
-          <img src="/images/profile.jpg" alt="profile img" />
+          <MdOutlinePermIdentity className="icons logo" />
         </div>
         <div className="posts__first__name">
           <strong>vivek Pathak</strong> <FaRegCheckCircle className="verify" />
@@ -26,7 +27,7 @@ const Posts = () => {
           the six off the back foot in the 19th over against Rauf over long on was spectacular! 😮Keep it going.
         </div>
         <div className="postss__details__img">
-          <img src="/images/post.webp" alt="post" />
+          {/* <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsports.ndtv.com%2Ft20-world-cup-2022%2Fvirat-kohli-breaks-sri-lanka-stars-huge-t20-world-cup-record-3482909&psig=AOvVaw0iCwwEbucRLZHnOwu7zKos&ust=1667594245084000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKjc3-bukvsCFQAAAAAdAAAAABAE" alt="post" /> */}
         </div>
         <div className="reactions">
           <span>

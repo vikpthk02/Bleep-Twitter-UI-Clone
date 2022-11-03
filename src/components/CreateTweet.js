@@ -4,6 +4,7 @@ import {
     FaRegImage,
     FaRegSmile
 } from "react-icons/fa";
+import { MdOutlinePermIdentity } from "react-icons/md";
 
 
 const CreateTweet = () => {
@@ -25,7 +26,8 @@ const CreateTweet = () => {
         <div className="create">
             <div className="create__first">
                 <div className="create__img">
-                    <img src="/images/profile.jpg" alt="profile img" />
+                    {/* <img src="/images/profile.jpg" alt="profile img" /> */}
+                    <MdOutlinePermIdentity className="icons logo" />
                 </div>
                 <div className="create__input">
                     <input
